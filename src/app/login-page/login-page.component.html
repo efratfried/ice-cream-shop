@@ -1,0 +1,16 @@
+<div class="login-container">
+  <h2>כניסה למערכת</h2>
+  <mat-form-field appearance="fill">
+    <mat-label>מס' הזמנה</mat-label>
+    <input matInput [(ngModel)]="orderNumber" type="number" />
+  </mat-form-field>
+  <div class="button-container">
+    <button mat-raised-button color="primary" (click)="onExistingOrder()">
+      המשך הזמנה קיימת
+    </button>
+    <button mat-raised-button color="accent" (click)="onNewOrder()">
+      יצירת הזמנה חדשה
+    </button>
+  </div>
+</div>
+

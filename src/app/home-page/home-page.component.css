@@ -1,0 +1,46 @@
+.background {
+    background-image: url('../../../public/homePage.PNG');
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: 100vh;
+}
+
+.btn_cart {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.num_cart_items {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: #f0f0f0;
+    margin-bottom: 5px;
+}
+
+.btn_store{
+    position: absolute;
+    bottom: 10px; /* Adjust to position from the bottom */
+    left: 10px; /* Adjust to position from the left */
+    background-color: white;
+    display: inline-block;
+    padding: 5px 10px;
+    border: 2px solid white;
+    border-radius: 15px;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 30px 20px
+}
+
+.arrow_forward{
+    font-size: 30px;
+}

@@ -1,0 +1,9 @@
+<div class="background">
+  <app-cart></app-cart>
+  <div class="menu">
+    <app-flavor-card
+      *ngFor="let flavor of mockData"
+      [flavor]="flavor"
+    ></app-flavor-card>
+  </div>
+</div>

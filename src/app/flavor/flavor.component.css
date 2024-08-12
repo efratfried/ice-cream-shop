@@ -1,0 +1,34 @@
+/* עיצוב של הדיאלוג */
+mat-dialog-content {
+    padding: 20px;
+  }
+  
+  mat-form-field {
+    width: 100%;
+  }
+  
+  .price_tag h6 {
+    padding-top: 0.5px; /* מרווח קטן בין המחיר ל-h6 */
+  }
+
+  .price {
+    font-weight: bold;
+    color: #ff4081; /* צבע ורוד לדוגמה, אפשר לשנות לכל צבע אחר */
+    font-size: 1.2em;
+    /* margin-top: 10px; */
+  }
+  .flavor_name{
+    font-weight: bold;
+    align-items:center;
+    justify-content:center;
+
+  }
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  

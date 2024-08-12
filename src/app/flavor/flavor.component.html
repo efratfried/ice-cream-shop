@@ -1,0 +1,17 @@
+<div class="main-content">
+  <h2 mat-dialog-title class="flavor_name">{{ chosenFlavor.flavor }}</h2>
+  <mat-dialog-content>
+    <mat-form-field appearance="fill">
+      <mat-label>amount</mat-label>
+      <input matInput type="number" [(ngModel)]="quantity" min="1" />
+        <p class="price">price - {{ chosenFlavor.price }}$</p>
+        <h6 class="price_tag">price per Kg</h6>
+    </mat-form-field>
+  </mat-dialog-content>
+  <mat-dialog-actions>
+    <button mat-button (click)="dialogRef.close()">discard</button>
+    <button mat-button color="primary" (click)="addToCart()">
+      add to cart
+    </button>
+  </mat-dialog-actions>
+</div>
